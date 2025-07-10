@@ -8,9 +8,7 @@
 
 body {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 40px;
     background-color: #f7f7f7;
     font-family: 'Poppins', sans-serif;
 }
@@ -41,4 +39,9 @@ input {
   display: block;
   margin-top: 16px;
   display: none;
+}
+
+.colorsAlign {
+    display: flex;
+    align-items: center;
 }

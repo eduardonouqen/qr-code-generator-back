@@ -33,7 +33,11 @@ app.post("/api/qrcode", async (req, res) => {
         marker_bottom_outer_color: "#00bfff",
         marker_left_template: "version10",
         marker_right_template: "version10",
-        marker_bottom_template: "version10"
+        marker_bottom_template: "version10",
+        frame_name: "no-frame",
+        fram_color: "#ffffff",
+        frame_text: "",
+        frame_icon_name: "",
       })
     });
 
