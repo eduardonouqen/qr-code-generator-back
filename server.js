@@ -23,7 +23,7 @@ app.post("/api/qrcode", async (req, res) => {
         frame_name: "no-frame",
         qr_code_text: url,
         image_format: "SVG",
-        background_color: "#fffff",
+        background_color: "#ffffff",
         foreground_color: "#fa6e79",
         marker_left_inner_color: "#2d7cda",
         marker_left_outer_color: "#00bfff",
